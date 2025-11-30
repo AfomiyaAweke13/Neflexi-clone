@@ -1,0 +1,82 @@
+.footer_outer_container {
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    color: #757575;
+}
+
+.footer_inner_container {
+    width: 75%;
+    max-width: 1000px;
+    font-size: 13px;
+}
+
+/* Social Icons */
+.footer_icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer_icons svg {
+    font-size: 28px;
+    color: #757575;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_icons svg:hover {
+    color: #fff;
+}
+
+/* Footer Link Grid */
+.footer_data,
+.footer_links {
+    margin: 20px 0;
+}
+
+.footer_data ul,
+.footer_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    row-gap: 12px;
+}
+
+.footer_data li,
+.footer_inner_container > li {
+    cursor: pointer;
+}
+
+.footer_data li:hover,
+.footer_inner_container > li:hover {
+    text-decoration: underline;
+}
+
+/* Service Code Button */
+.service_code {
+    border: 1px solid #757575;
+    color: #757575;
+    padding: 8px 14px;
+    margin: 20px 0;
+    width: fit-content;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.service_code:hover {
+    color: white;
+    border-color: white;
+}
+
+/* Copyright Text */
+.copy-write {
+    color: #757575;
+    font-size: 12px;
+    margin-top: 15px;
+}
