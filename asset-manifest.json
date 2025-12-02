@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Neflexi-clone/static/css/main.2e18c268.css",
+    "main.js": "/Neflexi-clone/static/js/main.56528570.js",
+    "index.html": "/Neflexi-clone/index.html",
+    "main.2e18c268.css.map": "/Neflexi-clone/static/css/main.2e18c268.css.map",
+    "main.56528570.js.map": "/Neflexi-clone/static/js/main.56528570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e18c268.css",
+    "static/js/main.56528570.js"
+  ]
+}
